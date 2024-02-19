@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
 	[SerializeField] float jumpSpeed;
 
 	private Vector3 moveDir;
-	private float ySpeed; // 점프와 중력 주기위해 ySpeed 만들기
+	private float ySpeed; // 점프와 중력 주기 위해 ySpeed 만들기
 
 	[SerializeField] LayerMask groundChecker;
 	[SerializeField] bool isGround;
